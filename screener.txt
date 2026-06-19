@@ -1,0 +1,112 @@
+Price > 150d SMA AND Price > 200d SMA AND SMA150 > SMA200
+150-DMA above the 200-DMA
+SMA50 > SMA150 AND SMA150 > SMA200 AND Price > SMA50
+50-day MA above both the 150-day and 200-day MAs, and price above the 50-day MA
+Price >= 0.75 * 52wkHigh
+RS rating ≥70–80
+Volume > AvgVolume20
+Volume (3-month average) > X
+EPS (TTM) > 1.25 * EPS (TTM) 1 year ago
+EPS Qtr (YoY) > 25% or EPS (TTM) is ≥1.25× last year’s
+Sales (TTM) > 1.25 * Sales (TTM) 1 year ago or Sales Qtr Rs.Cr. YoY growth > 25%
+ROCE > 15%
+Debt/Equity < 0.5
+FII_Holding > 5%
+Market Cap Rs.Cr. > 500
+Look for chart bases or technical patterns (double bottom, cup-with-handle, consolidation) combined with strong fundamentals
+            # REFINED VERSION OF ABOVE SCREENER | TIER A FILTERS
+Current price > 0.65 * High price AND
+EPS > EPS last year * 1.15 AND
+EPS growth 3Years > 10 AND
+Sales growth 5Years > 10 AND
+Return on capital employed > 12 AND
+Debt to equity < 1 AND
+Market Capitalization > 500 AND
+Promoter holding > 25 AND
+Return on equity > 12
+                                        # TIER 2 FILTERS 
+Current price > 0.65 * High price AND
+EPS > EPS last year * 1.15 AND
+EPS growth 3Years > 10 AND
+Sales growth 5Years > 10 AND
+Return on capital employed > 12 AND
+Debt to equity < 1 AND
+Market Capitalization > 500 AND
+Promoter holding > 25
+                                        # TIER 3 FILTERS
+EPS growth 3Years > 8 AND
+Sales growth 5Years > 8 AND
+Return on capital employed > 10 AND
+Market Capitalization > 300 AND
+Debt to equity < 1.5
+                                    #PIVOT BREAKOUT
+Latest close > 10-day High
+AND
+Latest close > 50 EMA
+AND
+Volume > 1.5 * 20 SMA Volume
+AND
+20 EMA > 50 EMA
+AND
+Close within 5% of 52-week High
+                                    # CUP N HANDLE 
+Latest close > 50 EMA
+AND
+[1 day ago] Close > [20 days ago] Close * 0.95
+AND
+Min(Low, 20) > 50 EMA
+AND
+Latest close within 5% of 30-day High
+AND
+Volume < [10 days ago] Volume
+                                # HIGH TIGHT FLAG SETUP
+Latest close >= 2 * [40 days ago] Close
+AND
+High - Low < 2% (tight range)
+AND
+Volume < 20 SMA Volume
+AND
+Latest close near 10-day High
+                                # GENERAL EXPLOSIVE SETUP
+Bollinger Band Width < 3%
+AND
+Latest close > 50 EMA
+AND
+ADX > 20
+AND
++DI > -DI
+AND
+RSI > 55
+AND
+MACD Line > Signal Line
+AND
+Volume > 1.5 * 50 SMA Volume
+
+# Breakout + Volume Spike Screener (Bullish Swing Setup)
+Current price > 100 AND
+Current price > EMA(50) AND
+EMA(50) > EMA(150) AND
+EMA(150) > EMA(200) AND
+Current price > High price 21 days ago AND
+Volume > 1.5 * Average volume 10 days AND
+Market Capitalization > 500 AND
+Current price * Volume > 10000000
+
+# Consolidation Setup Screener (Low ATR, Tight Ranges)
+Current price > 50 AND
+Average True Range 14 days < Average True Range 14 days 10 days ago AND
+Average True Range 14 days / Current price < 0.05 AND
+Current price > EMA(50) AND
+EMA(50) > EMA(150) AND
+EMA(150) > EMA(200) AND
+Current price > 75% of High price 52 weeks AND
+Market Capitalization > 500
+
+# Volume-First Watchlist Screener
+Current price > 50 AND
+Volume > 2 * Average volume 20 days AND
+Current price BETWEEN Low price 30 days AND High price 30 days AND
+Current price > EMA(50) AND
+Current price * Volume > 10000000 AND
+Market Capitalization > 500
+

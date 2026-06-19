@@ -1,0 +1,24 @@
+# Ignore Python environments
+Lib/
+Scripts/
+share/
+
+# IDE
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Generated outputs
+buy_sell_charts/
+trend_charts/
+detailed_analysis/
+recent_signals/
+
+*_recent_signals.xlsx
+backtest_performance_summary.xlsx
+gitleaks-report.json
