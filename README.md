@@ -1,0 +1,1 @@
+Algotheta is a Python-based quantitative equity screening and technical analysis framework. It identifies trading opportunities using technical indicators, trend analysis, backtesting, and rule-based signal generation for Indian equities.
